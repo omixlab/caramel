@@ -10,3 +10,4 @@ dependencies:
   - pip:
     - git+https://github.com/samoturk/mol2vec
     - -r requirements.txt
+    - -e .

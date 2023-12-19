@@ -1,5 +1,4 @@
 bambu-qsar
-bambu-server
 gunicorn
 yagmail
 flask

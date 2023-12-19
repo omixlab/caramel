@@ -4,7 +4,7 @@
 
 ## Requirements
 
-- [redis](https://redis.io/) (running on port 6379)
+- [redis](https://redis.io/). The port used by Redis must be specified in the environment variable `BAMBU_REDIS_URI`.
 
 ## Setup
 
@@ -21,7 +21,6 @@ Conda environment will be created.
 
 Caramel datasets occupy ~1.1 Gb of space and are not appropriate for GitHub, therefore we have
 uploaded them to [Zenodo](https://zenodo.org/records/10406050). To download the data, use the command:
-
 
 ```
 $ make download_data
