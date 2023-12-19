@@ -1,0 +1,55 @@
+{
+    "name": "Caramel",
+    "favicon": "",
+    "description": "A webserver for melanoma QSAR models built using <a style='text-decoration: none' href='https://github.com/omixlab/bambu-v2'>Bambu</a>.",
+    "models": [
+        {
+            "name": "SK-MEL-5 cell line growth inhibition",
+            "model": "data/models/37_model.pickle",
+            "preprocessor": "data/preprocessors/37_preprocessor.pickle",
+            "description": "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/37'>PubChem BioAssays</a>"
+        },
+        {
+            "name": "MALME-3M cell line growth inhibition",
+            "model": "data/models/29_model.pickle",
+            "preprocessor": "data/preprocessors/29_preprocessor.pickle",
+            "description": "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/29'>PubChem BioAssays</a>"
+        },
+        {
+            "name": "M14 cell line growth inhibition",
+            "model": "data/models/25_model.pickle",
+            "preprocessor": "data/preprocessors/25_preprocessor.pickle",
+            "description": "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/25'>PubChem BioAssays</a>"
+        },
+        {
+            "name": "LOX IMVI cell line growth inhibition",
+            "model": "data/models/23_model.pickle",
+            "preprocessor": "data/preprocessors/23_preprocessor.pickle",
+            "description": "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/23'>PubChem BioAssays</a>"
+        },
+        { 
+            "name": "UACC-257 cell line growth inhibition",
+            "model": "data/models/33_model.pickle",
+            "preprocessor": "data/preprocessors/33_preprocessor.pickle",
+            "description": "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/33'>PubChem BioAssays</a>"
+        },
+        {
+            "name": "UACC-62 cell line growth inhibition",
+            "model": "data/models/31_model.pickle",
+            "preprocessor": "data/preprocessors/31_preprocessor.pickle",
+            "description": "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/31'>PubChem BioAssays</a>"
+        },
+        {
+            "name": " SK-MEL-2 cell line growth inhibition",
+            "model": "data/models/35_model.pickle",
+            "preprocessor": "data/preprocessors/35_preprocessor.pickle",
+            "description": "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/35'>PubChem BioAssays</a>"
+        },
+        {
+            "name": "SK-MEL-28 cell line growth inhibition",
+            "model": "data/models/39_model.pickle",
+            "preprocessor": "data/preprocessors/39_preprocessor.pickle",
+            "description": "<a href='https://pubchem.ncbi.nlm.nih.gov/bioassay/39'>PubChem BioAssays</a>"
+        }
+    ]
+}
